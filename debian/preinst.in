@@ -1,0 +1,40 @@
+#!/bin/sh
+set -e
+
+# THIS MIGHT BE A GENERATED FILE
+# generated from preinst.in
+# make sure you edit the right file to avoid losing your changes.
+
+ORIGINALSDIR=/usr/share/tzdata-au/original
+
+if [ "$1" = upgrade ] && dpkg --compare-versions "$2" lt "2008b-3"; then
+	# Remove the old method of using diverted files
+	echo "Stashing unpatched timezone files..."
+	for dir in zoneinfo zoneinfo/posix zoneinfo/right; do
+        mkdir -p "$ORIGINALSDIR/$dir/Australia"
+		for zone in @ZONELIST@; do
+			echo -n .
+            # Ensure this file actually exists; for idempotency
+            if ! [ -e /usr/share/$dir/Australia/$zone ]; then
+                continue
+            fi
+
+            # Remove the "live" zoneinfo file since dpkg-divert refuses
+            # to replace an existing file.
+            rm -f /usr/share/$dir/Australia/$zone
+			dpkg-divert --quiet --package tzdata-au --rename --remove /usr/share/$dir/Australia/$zone
+            # The old tzdata-au package owned the files in /usr/share/zoneinfo
+            # but now that we have restored them we need to keep a copy of
+            # the original, unpatched files before the old package file removal
+            # gets rid of them.
+            cp -fl "/usr/share/$dir/Australia/$zone" "$ORIGINALSDIR/$dir/Australia/"
+		done
+		echo
+	done
+    # Finally, remove the old diversion directory structure
+    rm -rf /usr/share/tzdata-au/diversions
+fi
+
+#DEBHELPER#
+
+# vim: ts=4 sw=4 et

@@ -1,0 +1,4 @@
+version=3
+ftp://elsie.nci.nih.gov/pub/tzdata(\w+)\.tar\.gz   \
+    debian uupdate
+

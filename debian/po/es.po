@@ -1,0 +1,2998 @@
+# tzdata translation to Spanish
+# Copyright (C) 2002-2007 Free Software Foundation, Inc.
+#
+#    This program is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program; if not, write to the Free Software
+#    Foundation. 51 Franklin Street, Fifth Floor Boston, MA 02110-1301
+#    USA
+#
+# For more information please see
+#  http://www.gnu.org/licenses/licenses.html#GPL
+#
+# Authors:
+# - Translation of most of the cities in this PO file are based on
+#   anaconda's timeconfig which was originally translated by
+#       Tullio Dovera <tdovera@redhat.it>, 2000.
+#       and Nuria Soriano <nuria@redhat.es>, 2002
+# - Later, it was adapted to use in Debian's tzdata, and spelling fixes
+#   were introduced by
+#       Rudy Godoy Guillén <rudy@stone-head.org>, 2007
+# - It was also reviewed by
+#       Javier Fernández-Sanguino <jfs@debian.org>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tzdata 2007e\n"
+"Report-Msgid-Bugs-To: tzdata@packages.debian.org\n"
+"POT-Creation-Date: 2008-03-24 09:56-0400\n"
+"PO-Revision-Date: 2008-05-11 16:02-0500\n"
+"Last-Translator: Rudy Godoy <rudy@stone-head.org>\n"
+"Language-Team: Debian l10n Spanish <debian-l10n-spanish@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Africa"
+msgstr "África"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "America"
+msgstr "América"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Antarctica"
+msgstr "Antártica"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Australia"
+msgstr "Australia"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Arctic"
+msgstr "Ártico"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Asia"
+msgstr "Asia"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Atlantic"
+msgstr "Atlántico"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Europe"
+msgstr "Europa"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Indian"
+msgstr "India"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Pacific"
+msgstr "Pacífico"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "SystemV"
+msgstr "SystemV"
+
+#. Type: select
+#. Choices
+#. Note to translators:
+#. - "Etc" will present users with a list
+#. of "GMT+xx" or "GMT-xx" timezones
+#. - SystemV will give the choice between zone named as per SystemV conventions:
+#. EST5, MST7, etc.
+#: ../templates:1001
+msgid "Etc"
+msgstr "Etc"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Geographic area:"
+msgstr "Área geográfica:"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"Please select the geographic area you live in. Subsequent configuration "
+"questions will narrow this down by presenting a list of cities, representing "
+"the time zones in which they are located."
+msgstr ""
+"Por favor elija el área geográfica donde reside. La lista de ciudades que se "
+"presentarán después representan la zona horaria en la que están localizadas."
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Abidjan"
+msgstr "Abiyán"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Accra"
+msgstr "Accra"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Addis_Ababa"
+msgstr "Addis Ababa"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Algiers"
+msgstr "Argelia"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Asmara"
+msgstr "Asmara"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Bamako"
+msgstr "Bamako"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Bangui"
+msgstr "Bangui"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Banjul"
+msgstr "Banjul"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Bissau"
+msgstr "Bissáu"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Blantyre"
+msgstr "Blantyre"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Brazzaville"
+msgstr "Brazzaville"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Bujumbura"
+msgstr "Bujumbura"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Cairo"
+msgstr "El Cairo"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Casablanca"
+msgstr "Casablanca"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Ceuta"
+msgstr "Ceuta"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Conakry"
+msgstr "Conakry"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Dakar"
+msgstr "Dakar"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Dar_es_Salaam"
+msgstr "Dar es Salaam"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Djibouti"
+msgstr "Yibuti"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Douala"
+msgstr "Duala"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "El_Aaiun"
+msgstr "El Aaiun"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Freetown"
+msgstr "Freetown"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Gaborone"
+msgstr "Gaborone"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Harare"
+msgstr "Harare"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Johannesburg"
+msgstr "Johannesburgo"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Kampala"
+msgstr "Kampala"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Khartoum"
+msgstr "Jartum"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Kigali"
+msgstr "Kigali"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Kinshasa"
+msgstr "Kinshasa"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Lagos"
+msgstr "Lagos"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Libreville"
+msgstr "Libreville"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Lome"
+msgstr "Lome"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Luanda"
+msgstr "Luanda"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Lubumbashi"
+msgstr "Lubumbashi"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Lusaka"
+msgstr "Lusaka"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Malabo"
+msgstr "Malabo"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Maputo"
+msgstr "Maputo"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Maseru"
+msgstr "Maseru"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Mbabane"
+msgstr "Mbabane"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Mogadishu"
+msgstr "Mogadisco"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Monrovia"
+msgstr "Monrovia"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Nairobi"
+msgstr "Nairobi"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Ndjamena"
+msgstr "Ndjamena"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Niamey"
+msgstr "Niamey"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Nouakchott"
+msgstr "Nuakchott"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Ouagadougou"
+msgstr "Uagadugú"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Porto-Novo"
+msgstr "Puerto Nuevo"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Sao_Tome"
+msgstr "Santo Tomás"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Timbuktu"
+msgstr "Tombuctú"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Tripoli"
+msgstr "Trípoli"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Tunis"
+msgstr "Túnez"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "Windhoek"
+msgstr "Windhoek"
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../templates:2002 ../templates:3002 ../templates:4002 ../templates:5002
+#: ../templates:6002 ../templates:7002 ../templates:8002 ../templates:9002
+#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13001
+msgid "Time zone:"
+msgstr "Zona horaria:"
+
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#. Type: select
+#. Description
+#: ../templates:2002 ../templates:3002 ../templates:4002 ../templates:5002
+#: ../templates:6002 ../templates:7002 ../templates:8002 ../templates:9002
+#: ../templates:10002 ../templates:11002 ../templates:12001 ../templates:13001
+msgid "Please select the time zone corresponding to your location."
+msgstr "Por favor, elija la zona horaria que corresponde a su ubicación."
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Adak"
+msgstr "Adak"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Anchorage"
+msgstr "Anchorage"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Anguilla"
+msgstr "Anguila"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Antigua"
+msgstr "Antigua"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Araguaina"
+msgstr "Araguaina"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/Buenos_Aires"
+msgstr "Argentina/Buenos Aires"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/Catamarca"
+msgstr "Argentina/Catamarca"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/Cordoba"
+msgstr "Argentina/Córdoba"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/Jujuy"
+msgstr "Argentina/Jujuy"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/La_Rioja"
+msgstr "Argentina/Mendoza"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/Mendoza"
+msgstr "Argentina/Mendoza"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/Rio_Gallegos"
+msgstr "Argentina/Rio Gallegos"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/San_Juan"
+msgstr "Argentina/San Juan"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/San_Luis"
+msgstr "Argentina/San Luis"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/Tucuman"
+msgstr "Argentina/Tucumán"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Argentina/Ushuaia"
+msgstr "Argentina/Ushuaia"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Aruba"
+msgstr "Aruba"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Asuncion"
+msgstr "Asunción"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Atikokan"
+msgstr "Atikokan"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Atka"
+msgstr "Atka"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Bahia"
+msgstr "Bahía"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Barbados"
+msgstr "Barbados"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Belem"
+msgstr "Belén"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Belize"
+msgstr "Belice"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Blanc-Sablon"
+msgstr "Blanc-Sablon"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Boa_Vista"
+msgstr "Buena Vista"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Bogota"
+msgstr "Bogotá"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Boise"
+msgstr "Boise"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Cambridge_Bay"
+msgstr "Cambridge Bay"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Campo_Grande"
+msgstr "Campo Grande"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Cancun"
+msgstr "Cancún"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Caracas"
+msgstr "Caracas"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Cayenne"
+msgstr "Cayenne"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Cayman"
+msgstr "Caimán"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Chicago"
+msgstr "Chicago"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Chihuahua"
+msgstr "Chihuahua"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Coral_Harbour"
+msgstr "Coral Harbour"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Costa_Rica"
+msgstr "Costa Rica"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Cuiaba"
+msgstr "Cuiabá"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Curacao"
+msgstr "Curazao"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Danmarkshavn"
+msgstr "Danmarkshavn"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Dawson"
+msgstr "Dawson"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Dawson_Creek"
+msgstr "Dawson Creek"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Denver"
+msgstr "Denver"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Detroit"
+msgstr "Detroit"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Dominica"
+msgstr "Dominica"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Edmonton"
+msgstr "Edmonton"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Eirunepe"
+msgstr "Eirunepe"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "El_Salvador"
+msgstr "El Salvador"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Ensenada"
+msgstr "Ensenada"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Fortaleza"
+msgstr "Fortaleza"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Glace_Bay"
+msgstr "Glace Bay"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Godthab"
+msgstr "Godthab"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Goose_Bay"
+msgstr "Goose Bay"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Grand_Turk"
+msgstr "Grand Turk"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Grenada"
+msgstr "Granada"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Guayaquil"
+msgstr "Guayaquil"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Guyana"
+msgstr "Guyana"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Halifax"
+msgstr "Halifax"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Havana"
+msgstr "Habana"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Hermosillo"
+msgstr "Hermosillo"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Indiana/Indianapolis"
+msgstr "Indiana/Indianápolis"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Indiana/Knox"
+msgstr "Indiana/Knox"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Indiana/Marengo"
+msgstr "Indiana/Marengo"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Indiana/Petersburg"
+msgstr "Indiana/Petersburg"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Indiana/Tell_City"
+msgstr "Indiana/Tell City"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Indiana/Vevay"
+msgstr "Indiana/Vevay"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Indiana/Vincennes"
+msgstr "Indiana/Vincennes"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Indiana/Winamac"
+msgstr "Indiana/Winamac"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Inuvik"
+msgstr "Inuvik"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Iqaluit"
+msgstr "Iqaluit"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Juneau"
+msgstr "Juneau"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Kentucky/Louisville"
+msgstr "Kentucky/Louisville"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Kentucky/Monticello"
+msgstr "Kentucky/Monticello"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "La_Paz"
+msgstr "La Paz"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Lima"
+msgstr "Lima"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Los_Angeles"
+msgstr "Los Angeles"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Maceio"
+msgstr "Maceió"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Managua"
+msgstr "Managua"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Manaus"
+msgstr "Manaos"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Marigot"
+msgstr "Marigot"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Martinique"
+msgstr "Martinica"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Mazatlan"
+msgstr "Mazatlan"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Menominee"
+msgstr "Menominee"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Merida"
+msgstr "Mérida"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Mexico_City"
+msgstr "Ciudad de México"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Miquelon"
+msgstr "Miquelon"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Moncton"
+msgstr "Moncton"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Monterrey"
+msgstr "Monterrey"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Montevideo"
+msgstr "Montevideo"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Montreal"
+msgstr "Montreal"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Nassau"
+msgstr "Nassau"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "New_York"
+msgstr "Nueva York"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Nipigon"
+msgstr "Nipigon"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Nome"
+msgstr "Nome"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Noronha"
+msgstr "Noronha"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "North_Dakota/Center"
+msgstr "Dakota del Norte/Centro"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "North_Dakota/New_Salem"
+msgstr "Dakota del Norte/Nuevo Salem"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Panama"
+msgstr "Panamá"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Pangnirtung"
+msgstr "Pangnirtung"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Paramaribo"
+msgstr "Paramaribo"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Phoenix"
+msgstr "Fénix"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Port-au-Prince"
+msgstr "Puerto Príncipe"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Port_of_Spain"
+msgstr "Puerto de España"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Porto_Acre"
+msgstr "Puerto Acre"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Porto_Velho"
+msgstr "Puerto Bello"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Puerto_Rico"
+msgstr "Puerto Rico"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Rainy_River"
+msgstr "Rainy River"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Rankin_Inlet"
+msgstr "Rankin Inlet"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Recife"
+msgstr "Recife"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Regina"
+msgstr "Regina"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Resolute"
+msgstr "Resolute"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Rio_Branco"
+msgstr "Rio Blanco"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Santiago"
+msgstr "Santiago"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Santo_Domingo"
+msgstr "Santo Domingo"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Sao_Paulo"
+msgstr "San Pablo"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Scoresbysund"
+msgstr "Ittoqqortoormiit"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Shiprock"
+msgstr "Shiprock"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "St_Barthelemy"
+msgstr "San Bartolomé"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "St_Johns"
+msgstr "San Juan"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "St_Kitts"
+msgstr "San Cristóbal"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "St_Lucia"
+msgstr "Santa Lucía"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "St_Thomas"
+msgstr "Santo Tomás"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "St_Vincent"
+msgstr "San Vicente"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Swift_Current"
+msgstr "Swift Current"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Tegucigalpa"
+msgstr "Tegucigalpa"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Thule"
+msgstr "Thule"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Thunder_Bay"
+msgstr "Thunder Bay"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Tijuana"
+msgstr "Tijuana"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Toronto"
+msgstr "Toronto"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Tortola"
+msgstr "Tórtola"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Vancouver"
+msgstr "Vancouver"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Virgin"
+msgstr "Virgin"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Whitehorse"
+msgstr "Whitehorse"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Winnipeg"
+msgstr "Winnipeg"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Yakutat"
+msgstr "Yakutat"
+
+#. Type: select
+#. Choices
+#: ../templates:3001
+msgid "Yellowknife"
+msgstr "Yellowknife"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Casey"
+msgstr "Casey"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Davis"
+msgstr "Davis"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "DumontDUrville"
+msgstr "DumontDUrville"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Mawson"
+msgstr "Mawson"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "McMurdo"
+msgstr "McMurdo"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Palmer"
+msgstr "Palmer"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Rothera"
+msgstr "Rothera"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Syowa"
+msgstr "Syowa"
+
+#. Type: select
+#. Choices
+#: ../templates:4001
+msgid "Vostok"
+msgstr "Vostok"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Adelaide"
+msgstr "Adelaida"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Brisbane"
+msgstr "Brisbane"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Broken_Hill"
+msgstr "Broken Hill"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Canberra"
+msgstr "Canberra"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Currie"
+msgstr "Currie"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Darwin"
+msgstr "Darwin"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Eucla"
+msgstr "Eucla"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Hobart"
+msgstr "Hobart"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Lindeman"
+msgstr "Lindeman"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Lord_Howe"
+msgstr "Lord Howe"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Melbourne"
+msgstr "Melbourne"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Perth"
+msgstr "Perth"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Sydney"
+msgstr "Sídney"
+
+#. Type: select
+#. Choices
+#: ../templates:5001
+msgid "Yancowinna"
+msgstr "Yancowinna"
+
+#. Type: select
+#. Choices
+#: ../templates:6001
+msgid "Longyearbyen"
+msgstr "Longyearbyen"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Aden"
+msgstr "Aden"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Almaty"
+msgstr "Almaty"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Amman"
+msgstr "Ammán"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Anadyr"
+msgstr "Anadyr"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Aqtau"
+msgstr "Aktau"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Aqtobe"
+msgstr "Aqtobe"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Ashgabat"
+msgstr "Asjabad"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Baghdad"
+msgstr "Bagdad"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Bahrain"
+msgstr "Bahréin"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Baku"
+msgstr "Bakú"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Bangkok"
+msgstr "Bangkok"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Beirut"
+msgstr "Beirut"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Bishkek"
+msgstr "Bishkek"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Brunei"
+msgstr "Brunéi"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Choibalsan"
+msgstr "Choibalsan"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Chongqing"
+msgstr "Chongqing"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Colombo"
+msgstr "Colombo"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Damascus"
+msgstr "Damasco"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Dhaka"
+msgstr "Dhaka"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Dili"
+msgstr "Dili"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Dubai"
+msgstr "Dubai"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Dushanbe"
+msgstr "Dushanbe"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Gaza"
+msgstr "Gaza"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Harbin"
+msgstr "Harbin"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Ho_Chi_Minh"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Hong_Kong"
+msgstr "Hong Kong"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Hovd"
+msgstr "Hovd"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Irkutsk"
+msgstr "Irkutsk"
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:7001 ../templates:9001
+msgid "Istanbul"
+msgstr "Estambul"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Jakarta"
+msgstr "Yakarta"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Jayapura"
+msgstr "Jayapura"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Jerusalem"
+msgstr "Jerusalén"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Kabul"
+msgstr "Kabul"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Kamchatka"
+msgstr "Kamchatka"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Karachi"
+msgstr "Karachi"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Kashgar"
+msgstr "Kashgar"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Katmandu"
+msgstr "Katmandú"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Kolkata"
+msgstr ""
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Krasnoyarsk"
+msgstr "Krasnoyarsk"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Kuala_Lumpur"
+msgstr "Kuala Lumpur"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Kuching"
+msgstr "Kuching"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Macau"
+msgstr "Macao"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Magadan"
+msgstr "Magadan"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Makassar"
+msgstr "Makassar"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Manila"
+msgstr "Manila"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Muscat"
+msgstr "Muscat"
+
+#. Type: select
+#. Choices
+#. Type: select
+#. Choices
+#: ../templates:7001 ../templates:9001
+msgid "Nicosia"
+msgstr "Nicosia"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Novosibirsk"
+msgstr "Novosibirsk"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Omsk"
+msgstr "Omsk"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Oral"
+msgstr "Oral"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Phnom_Penh"
+msgstr "Phnom Penh"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Pontianak"
+msgstr "Pontianak"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Pyongyang"
+msgstr "Pyongyang"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Qatar"
+msgstr "Qatar"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Qyzylorda"
+msgstr "Qyzylorda"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Rangoon"
+msgstr "Rangoon"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Riyadh"
+msgstr "Riad"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Riyadh87"
+msgstr "Riad87"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Riyadh88"
+msgstr "Riad88"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Riyadh89"
+msgstr "Riad89"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Sakhalin"
+msgstr "Sajalín"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Samarkand"
+msgstr "Samarcanda"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Seoul"
+msgstr "Seúl"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Shanghai"
+msgstr "Shangai"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Singapore"
+msgstr "Singapur"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Taipei"
+msgstr "Taipei"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Tashkent"
+msgstr "Taskent"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Tbilisi"
+msgstr "Tiflis"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Tehran"
+msgstr "Teherán"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Tel_Aviv"
+msgstr "Tel Aviv"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Thimphu"
+msgstr "Timbu"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Tokyo"
+msgstr "Tokio"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Ujung_Pandang"
+msgstr "Makassar"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Ulaanbaatar"
+msgstr "Ulán Bator"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Urumqi"
+msgstr "Ürümqi"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Vientiane"
+msgstr "Vientián"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Vladivostok"
+msgstr "Vladivostok"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Yakutsk"
+msgstr "Yakutsk"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Yekaterinburg"
+msgstr "Ekaterimburgo"
+
+#. Type: select
+#. Choices
+#: ../templates:7001
+msgid "Yerevan"
+msgstr "Ereván"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Azores"
+msgstr "Azores"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Bermuda"
+msgstr "Bermudas"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Canary"
+msgstr "Canarias"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Cape_Verde"
+msgstr "Cabo Verde"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Faroe"
+msgstr "Feroe"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Jan_Mayen"
+msgstr "Jan Mayen"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Madeira"
+msgstr "Madeira"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Reykjavik"
+msgstr "Reikiavik"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "South_Georgia"
+msgstr "Georgia del Sur"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "St_Helena"
+msgstr "Santa Elena"
+
+#. Type: select
+#. Choices
+#: ../templates:8001
+msgid "Stanley"
+msgstr "Stanley"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Amsterdam"
+msgstr "Ámsterdam"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Andorra"
+msgstr "Andorra"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Athens"
+msgstr "Atenas"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Belfast"
+msgstr "Belfast"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Belgrade"
+msgstr "Belgrado"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Berlin"
+msgstr "Berlín"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Bratislava"
+msgstr "Bratislava"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Brussels"
+msgstr "Bruselas"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Bucharest"
+msgstr "Bucarest"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Budapest"
+msgstr "Budapest"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Chisinau"
+msgstr "Chisinau"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Copenhagen"
+msgstr "Copenhague"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Dublin"
+msgstr "Dublín"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Helsinki"
+msgstr "Helsinki"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Isle_of_Man"
+msgstr "Isla de Man"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Jersey"
+msgstr "Jersey"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Kaliningrad"
+msgstr "Kaliningrado"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Kiev"
+msgstr "Kiev"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Lisbon"
+msgstr "Lisboa"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Ljubljana"
+msgstr "Liubliana"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "London"
+msgstr "Londres"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Madrid"
+msgstr "Madrid"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Malta"
+msgstr "Malta"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Mariehamn"
+msgstr "Mariehamn"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Minsk"
+msgstr "Minsk"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Monaco"
+msgstr "Mónaco"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Moscow"
+msgstr "Moscú"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Oslo"
+msgstr "Oslo"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Paris"
+msgstr "París"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Podgorica"
+msgstr "Podgorica"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Prague"
+msgstr "Praga"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Riga"
+msgstr "Riga"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Rome"
+msgstr "Roma"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Samara"
+msgstr "Samara"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "San_Marino"
+msgstr "San Marino"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Sarajevo"
+msgstr "Sarajevo"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Simferopol"
+msgstr "Simferopol"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Skopje"
+msgstr "Skopie"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Sofia"
+msgstr "Sofía"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Stockholm"
+msgstr "Estocolmo"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Tallinn"
+msgstr "Tallin"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Tirane"
+msgstr "Tirana"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Tiraspol"
+msgstr "Tiraspol"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Uzhgorod"
+msgstr "Uzhgorod"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Vaduz"
+msgstr "Vaduz"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Vatican"
+msgstr "Vaticano"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Vienna"
+msgstr "Viena"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Vilnius"
+msgstr "Vilna"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Volgograd"
+msgstr "Volgogrado"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Warsaw"
+msgstr "Varsovia"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Zagreb"
+msgstr "Zagreb"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Zaporozhye"
+msgstr "Zaporozhye"
+
+#. Type: select
+#. Choices
+#: ../templates:9001
+msgid "Zurich"
+msgstr "Zúrich"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Antananarivo"
+msgstr "Antananarivo"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Chagos"
+msgstr "Chagos"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Christmas"
+msgstr "Isla de Navidad"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Cocos"
+msgstr "Cocos"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Comoro"
+msgstr "Comoro"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Kerguelen"
+msgstr "Kerguelen"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Mahe"
+msgstr "Mahe"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Maldives"
+msgstr "Maldivas"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Mauritius"
+msgstr "Mauricio"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#. Type: select
+#. Choices
+#: ../templates:10001
+msgid "Reunion"
+msgstr "Reunión"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Apia"
+msgstr "Apia"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Auckland"
+msgstr "Auckland"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Chatham"
+msgstr "Chatham"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Easter"
+msgstr "Isla de Pascua"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Efate"
+msgstr "Efate"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Enderbury"
+msgstr "Enderbury"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Fakaofo"
+msgstr "Fakaofo"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Fiji"
+msgstr "Fiyi"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Funafuti"
+msgstr "Funafuti"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Galapagos"
+msgstr "Galápagos"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Gambier"
+msgstr "Gambier"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Guadalcanal"
+msgstr "Guadalcanal"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Guam"
+msgstr "Guam"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Honolulu"
+msgstr "Honolulú"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Johnston"
+msgstr "Johnston"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Kiritimati"
+msgstr "Kiritimati"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Kosrae"
+msgstr "Kosrae"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Kwajalein"
+msgstr "Kwajalein"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Majuro"
+msgstr "Majuro"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Marquesas"
+msgstr "Marquesas"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Midway"
+msgstr "Midway"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Nauru"
+msgstr "Nauru"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Niue"
+msgstr "Niue"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Norfolk"
+msgstr "Norfolk"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Noumea"
+msgstr "Numea"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Pago_Pago"
+msgstr "Pago Pago"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Palau"
+msgstr "Palau"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Ponape"
+msgstr "Ponape"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Port_Moresby"
+msgstr "Puerto Moresby"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Rarotonga"
+msgstr "Rarotonga"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Saipan"
+msgstr "Saipán"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Samoa"
+msgstr "Samoa"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Tahiti"
+msgstr "Tahití"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Tarawa"
+msgstr "Tarawa"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Tongatapu"
+msgstr "Tongatapu"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Truk"
+msgstr "Truk"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Wake"
+msgstr "Wake"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Wallis"
+msgstr "Wallis"
+
+#. Type: select
+#. Choices
+#: ../templates:11001
+msgid "Yap"
+msgstr "Yap"
+
+#~ msgid "Calcutta"
+#~ msgstr "Calcuta"
+
+#~ msgid "Saigon"
+#~ msgstr "Saigón"
+
+#~ msgid "Canada"
+#~ msgstr "Canadá"
+
+#~ msgid "Central"
+#~ msgstr "Central"
+
+#~ msgid "East-Saskatchewan"
+#~ msgstr "East-Saskatchewan"
+
+#~ msgid "Eastern"
+#~ msgstr "Oriental"
+
+#~ msgid "Mountain"
+#~ msgstr "Montaña"
+
+#~ msgid "Newfoundland"
+#~ msgstr "Newfoundland"
+
+#~ msgid "Saskatchewan"
+#~ msgstr "Saskatchewan"
+
+#~ msgid "Yukon"
+#~ msgstr "Yukón"
+
+#~ msgid "Asmera"
+#~ msgstr "Asmera"
+
+#~ msgid "Cordoba"
+#~ msgstr "Córdoba"
+
+#~ msgid "Fort_Wayne"
+#~ msgstr "Fort Wayne"
+
+#~ msgid "Jujuy"
+#~ msgstr "Jujuy"
+
+#~ msgid "Knox_IN"
+#~ msgstr "Knox IN"
+
+#~ msgid "Mendoza"
+#~ msgstr "Mendoza"
+
+#~ msgid "Rosario"
+#~ msgstr "Rosario"
+
+#~ msgid "South_Pole"
+#~ msgstr "Polo sur"
+
+#~ msgid "ACT"
+#~ msgstr "ACT"
+
+#~ msgid "LHI"
+#~ msgstr "LHI"
+
+#~ msgid "NSW"
+#~ msgstr "NSW"
+
+#~ msgid "North"
+#~ msgstr "Norte"
+
+#~ msgid "Queensland"
+#~ msgstr "Queensland"
+
+#~ msgid "South"
+#~ msgstr "Sur"
+
+#~ msgid "Tasmania"
+#~ msgstr "Tasmania"
+
+#~ msgid "Victoria"
+#~ msgstr "Victoria"
+
+#~ msgid "West"
+#~ msgstr "Oeste"
+
+#~ msgid "Ashkhabad"
+#~ msgstr "Asjabad"
+
+#~ msgid "Chungking"
+#~ msgstr "Chungking"
+
+#~ msgid "Dacca"
+#~ msgstr "Dacca"
+
+#~ msgid "Macao"
+#~ msgstr "Macao"
+
+#~ msgid "Thimbu"
+#~ msgstr "Timbu"
+
+#~ msgid "Ulan_Bator"
+#~ msgstr "Ulan Bator"
+
+#~ msgid "Faeroe"
+#~ msgstr "Feroe"
+
+#~ msgid "AST4"
+#~ msgstr "AST4"
+
+#~ msgid "AST4ADT"
+#~ msgstr "AST4ADT"
+
+#~ msgid "CST6"
+#~ msgstr "CST6"
+
+#~ msgid "CST6CDT"
+#~ msgstr "CST6CDT"
+
+#~ msgid "EST5"
+#~ msgstr "EST5"
+
+#~ msgid "EST5EDT"
+#~ msgstr "EST5EDT"
+
+#~ msgid "HST10"
+#~ msgstr "HST10"
+
+#~ msgid "MST7"
+#~ msgstr "MST7"
+
+#~ msgid "MST7MDT"
+#~ msgstr "MST7MDT"
+
+#~ msgid "PST8"
+#~ msgstr "PST8"
+
+#~ msgid "PST8PDT"
+#~ msgstr "PST8PDT"
+
+#~ msgid "YST9"
+#~ msgstr "YST9"
+
+#~ msgid "YST9YDT"
+#~ msgstr "YST9YDT"
+
+#~ msgid "GMT"
+#~ msgstr "GMT"
+
+#~ msgid "GMT+0"
+#~ msgstr "GMT+0"
+
+#~ msgid "GMT+1"
+#~ msgstr "GMT+1"
+
+#~ msgid "GMT+10"
+#~ msgstr "GMT+10"
+
+#~ msgid "GMT+11"
+#~ msgstr "GMT+11"
+
+#~ msgid "GMT+12"
+#~ msgstr "GMT+12"
+
+#~ msgid "GMT+2"
+#~ msgstr "GMT+2"
+
+#~ msgid "GMT+3"
+#~ msgstr "GMT+3"
+
+#~ msgid "GMT+4"
+#~ msgstr "GMT+4"
+
+#~ msgid "GMT+5"
+#~ msgstr "GMT+5"
+
+#~ msgid "GMT+6"
+#~ msgstr "GMT+6"
+
+#~ msgid "GMT+7"
+#~ msgstr "GMT+7"
+
+#~ msgid "GMT+8"
+#~ msgstr "GMT+8"
+
+#~ msgid "GMT+9"
+#~ msgstr "GMT+9"
+
+#~ msgid "GMT-0"
+#~ msgstr "GMT-0"
+
+#~ msgid "GMT-1"
+#~ msgstr "GMT-1"
+
+#~ msgid "GMT-10"
+#~ msgstr "GMT-10"
+
+#~ msgid "GMT-11"
+#~ msgstr "GMT-11"
+
+#~ msgid "GMT-12"
+#~ msgstr "GMT-12"
+
+#~ msgid "GMT-13"
+#~ msgstr "GMT-13"
+
+#~ msgid "GMT-14"
+#~ msgstr "GMT-14"
+
+#~ msgid "GMT-2"
+#~ msgstr "GMT-2"
+
+#~ msgid "GMT-3"
+#~ msgstr "GMT-3"
+
+#~ msgid "GMT-4"
+#~ msgstr "GMT-4"
+
+#~ msgid "GMT-5"
+#~ msgstr "GMT-5"
+
+#~ msgid "GMT-6"
+#~ msgstr "GMT-6"
+
+#~ msgid "GMT-7"
+#~ msgstr "GMT-7"
+
+#~ msgid "GMT-8"
+#~ msgstr "GMT-8"
+
+#~ msgid "GMT-9"
+#~ msgstr "GMT-9"
+
+#~ msgid "GMT0"
+#~ msgstr "GMT0"
+
+#~ msgid "Greenwich"
+#~ msgstr "Greenwich"
+
+#~ msgid "UCT"
+#~ msgstr "UCT"
+
+#~ msgid "UTC"
+#~ msgstr "UTC"
+
+#~ msgid "Universal"
+#~ msgstr "Universal"
+
+#~ msgid "Zulu"
+#~ msgstr "Zulú"

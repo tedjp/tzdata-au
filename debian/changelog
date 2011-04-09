@@ -1,0 +1,22 @@
+tzdata-au (2008b-3) unstable; urgency=low
+
+  * Use symlinks to corrected timezone information rather than using
+    dpkg-divert. Triggers are now used because dpkg fails to unpack
+    hardlinks that are diverted (bug #245322), which caused tzdata
+    upgrades to fail when tzdata-au was installed.
+
+ -- Ted Percival <ted@midg3t.net>  Sat, 09 Apr 2011 16:00:56 -0600
+
+tzdata-au (2008b-2) unstable; urgency=low
+
+  * Split into a separate tzdata-au add-on package.
+
+ -- Ted Percival <ted@midg3t.net>  Sat, 24 May 2008 23:25:58 +1000
+
+tzdata (2008b-1au1) unstable; urgency=low
+
+  * Correct Australian timezone names:
+    - Prefix most with 'A' (except islands & LMT).
+    - Use 'D' for daylight saving time and 'S' for standard time.
+
+ -- Ted Percival <ted@midg3t.net>  Sun, 27 Apr 2008 02:30:24 +1000

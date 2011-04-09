@@ -1,0 +1,32 @@
+#!/bin/sh
+set -e
+
+# THIS MIGHT BE A GENERATED FILE
+# generated from postrm.in
+# make sure you edit the right file to avoid losing your changes.
+
+ORIGINALSDIR=/usr/share/tzdata-au/original
+
+if [ "$1" != remove ]; then
+    exit 0
+fi
+
+case "$1" in
+    remove)
+        echo "Restoring unpatched timezone files..."
+        for dir in zoneinfo zoneinfo/posix zoneinfo/right; do
+            find "$ORIGINALSDIR/$dir/Australia" -type f -print0 |
+                xargs -0 --no-run-if-empty mv -ft "/usr/share/$dir/Australia"
+        done
+
+        rm -rf $ORIGINALSDIR
+
+        # Update /etc/localtime to the original timezone name
+        # This is *kind of* a hack
+        /var/lib/dpkg/info/tzdata.postinst configure
+    ;;
+esac
+
+#DEBHELPER#
+
+# vim: ts=4 sw=4 et

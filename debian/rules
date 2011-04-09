@@ -1,0 +1,103 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+export LC_ALL=C
+
+TZGEN := $(CURDIR)/tzgen
+TIMEZONES := africa \
+             antarctica \
+             asia \
+             australasia \
+             europe \
+             northamerica \
+             southamerica \
+             etcetera \
+             factory \
+             solar87 \
+             solar88 \
+             solar89 \
+             backward \
+             systemv 
+
+# The contents of the Australia/ zoneinfo directory
+AUSTRALIAN_ZONES := \
+	ACT \
+	Adelaide \
+	Brisbane \
+	Broken_Hill \
+	Canberra \
+	Currie \
+	Darwin \
+	Eucla \
+	Hobart \
+	LHI \
+	Lindeman \
+	Lord_Howe \
+	Melbourne \
+	North \
+	NSW \
+	Perth \
+	Queensland \
+	South \
+	Sydney \
+	Tasmania \
+	Victoria \
+	West \
+	Yancowinna \
+	#
+
+build: build-stamp
+build-stamp:
+	dh_testdir
+
+	# Build
+	for zone in $(TIMEZONES); do \
+	  /usr/sbin/zic -d $(TZGEN) -L /dev/null -y yearistype.sh $${zone} ; \
+	  /usr/sbin/zic -d $(TZGEN)/posix -L /dev/null -y yearistype.sh $${zone} ; \
+	  /usr/sbin/zic -d $(TZGEN)/right -L leapseconds -y $(TZGEN)/yearistype.sh $${zone} ; \
+	done
+
+	# Generate a posixrules file
+	/usr/sbin/zic -d $(TZGEN) -p America/New_York
+
+	sed -e "s,@ZONELIST@,$(AUSTRALIAN_ZONES),g" < debian/preinst.in > debian/preinst
+
+	touch $@
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -rf $(TZGEN) .pc
+	rm -f debian/preinst debian/postrm
+	rm -f build-stamp
+	rm -f patch-log
+	dh_clean 
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	# Do nothing
+
+# Build architecture-dependent files here.
+binary-arch: build install
+# We have nothing to do by default.
+
+# Build architecture-independent files here.
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_installdirs
+	dh_install
+	dh_installchangelogs
+	dh_installdocs
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install

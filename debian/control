@@ -1,0 +1,19 @@
+Source: tzdata-au
+Section: libs
+Priority: extra
+Build-Depends: debhelper (>= 4.0.0)
+Build-Depends-Indep: quilt, po-debconf
+X-Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Maintainer: Ted Percival <ted@midg3t.net>
+Standards-Version: 3.7.3
+Homepage: http://tedp.id.au/tzdata-au/
+VCS-Browser: http://tedp.id.au/gitweb/?p=tzdata-au.git
+VCS-Git: git://tedp.id.au/git/tzdata-au.git
+
+Package: tzdata-au
+Architecture: all
+Depends: debconf | debconf-2.0, tzdata
+Description: Australian time zone name corrections
+ Updates the system timezone names for Australian timezones to match
+ common usage. The 'A' prefix is added to all major timezones and
+ daylight saving variants use 'D' instead of the ambiguous 'S'.

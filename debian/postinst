@@ -1,0 +1,71 @@
+#! /bin/sh
+set -e
+
+LC_ALL=C
+LANG=C
+unset TZ
+umask 022
+
+. /usr/share/debconf/confmodule
+db_version 2.0
+
+SUBDIRS="zoneinfo zoneinfo/posix zoneinfo/right"
+
+setup_symlinks () {
+    for subdir in $SUBDIRS; do
+        (cd /usr/share/$subdir/Australia && ln -sft . ../../tzdata-au/$subdir/Australia/*)
+    done
+}
+
+if [ "$1" = configure ] || [ "$1" = triggered ]; then
+    # Archive any new timezone information
+    /usr/lib/tzdata-au/archive-zoneinfo
+    # Take over the Australian timezones
+    setup_symlinks
+fi
+
+if [ "$1" = configure ]; then
+    # Reactivate the selected timezone like the tzdata package does.
+    # No need to do it during a trigger; the tzdata postinst will reinstall
+    # the selected timezone for us.
+
+    # If the user prefers to manage the timezone by itself, let him doing that.
+
+    if ! [ -e /etc/timezone ] && [ -z "$DEBCONF_RECONFIGURE" ] ; then
+        db_stop
+        echo
+        echo "User defined timezone, leaving /etc/localtime unchanged."
+    else
+        # Get the values from debconf
+        AREA=Etc
+        ZONE=UTC
+        db_get tzdata/Areas && AREA="$RET"
+        db_get tzdata/Zones/$AREA && ZONE="$RET"
+        db_stop
+    
+        # Update the timezone
+        echo $AREA/$ZONE > /etc/timezone
+        rm -f /etc/localtime && \
+            cp -f /usr/share/zoneinfo/$AREA/$ZONE /etc/localtime
+    
+        echo 
+        echo "Current default timezone: '$AREA/$ZONE'"
+    fi
+
+    # Show the new setting to the user
+    TZBase=$(LC_ALL=C TZ=UTC0 date)
+    UTdate=$(LC_ALL=C TZ=UTC0 date -d "$TZBase")
+    TZdate=$(unset TZ ; LANG=C date -d "$TZBase")
+    echo "Local time is now:      $TZdate."
+    echo "Universal Time is now:  $UTdate."
+    if [ -z "$DEBCONF_RECONFIGURE" ] ; then
+        echo "Run 'dpkg-reconfigure tzdata' if you wish to change it."
+    fi
+    echo
+fi
+
+#DEBHELPER#
+
+exit 0
+
+# vim: ts=4 sw=4 et
