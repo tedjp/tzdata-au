@@ -2,7 +2,7 @@ Source: tzdata-au
 Section: libs
 Priority: extra
 Build-Depends: debhelper (>= 4.0.0)
-Build-Depends-Indep: quilt, po-debconf
+Build-Depends-Indep: po-debconf
 X-Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Maintainer: Ted Percival <ted@midg3t.net>
 Standards-Version: 3.7.3
