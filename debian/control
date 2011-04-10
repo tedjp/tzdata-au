@@ -12,7 +12,7 @@ VCS-Git: git://tedp.id.au/git/tzdata-au.git
 
 Package: tzdata-au
 Architecture: all
-Depends: debconf | debconf-2.0, tzdata
+Depends: debconf | debconf-2.0, tzdata, ${misc:Depends}
 Description: Australian time zone name corrections
  Updates the system timezone names for Australian timezones to match
  common usage. The 'A' prefix is added to all major timezones and
