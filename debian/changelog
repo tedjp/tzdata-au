@@ -1,3 +1,9 @@
+tzdata-au (2011c-1) unstable; urgency=low
+
+  * Imported Upstream version 2011c
+
+ -- Ted Percival <ted@midg3t.net>  Sun, 10 Apr 2011 02:11:17 -0600
+
 tzdata-au (2008b-3) unstable; urgency=low
 
   * Use symlinks to corrected timezone information rather than using
