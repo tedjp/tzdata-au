@@ -5,7 +5,7 @@ Build-Depends: debhelper (>= 8.0.0)
 Build-Depends-Indep: po-debconf
 X-Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Maintainer: Ted Percival <ted@midg3t.net>
-Standards-Version: 3.7.3
+Standards-Version: 3.9.1
 Homepage: http://tedp.id.au/tzdata-au/
 VCS-Browser: http://tedp.id.au/gitweb/?p=tzdata-au.git
 VCS-Git: git://tedp.id.au/git/tzdata-au.git
