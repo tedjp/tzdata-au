@@ -4,8 +4,11 @@ tzdata-au (2008b-3) unstable; urgency=low
     dpkg-divert. Triggers are now used because dpkg fails to unpack
     hardlinks that are diverted (bug #245322), which caused tzdata
     upgrades to fail when tzdata-au was installed.
+  * Remove build-dependency on quilt.
+  * Update debhelper version to 8.
+  * Update standards-version to 3.9.1, no changes.
 
- -- Ted Percival <ted@midg3t.net>  Sat, 09 Apr 2011 16:00:56 -0600
+ -- Ted Percival <ted@midg3t.net>  Sun, 10 Apr 2011 01:22:18 -0600
 
 tzdata-au (2008b-2) unstable; urgency=low
 
